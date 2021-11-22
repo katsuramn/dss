@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* default.css 2.0 by © ARTI FACTORY last update 2011.11.10 */
+/* ------------------------------------------------------------ Initialization of the browser style */
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+address,
+code,
+em,
+span.strong,
+img,
+q,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+hr {
+	padding: 0;
+	margin: 0;
+	/*zoom: 1;*/
+	font-style: normal;
+	font-weight: normal;
+	line-height: 170%;
+	word-break: break-all; 
+}
+
+/* ------------------------------------------------------------ body reset */
+body {
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 12px;
+	background-color: #fff;
+}
+
+table { font-size: 100%; }
+strong { font-weight: normal; }
+/* ------------------------------------------------------------ Table Elements */
+table,
+th,
+td {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ------------------------------------------------------------ Form Elements */
+input,
+select,
+textarea {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+button { border: 0; }
+button:hover { cursor: pointer; }
+label { cursor: pointer; }
+
+/* ------------------------------------------------------------ etc */
+a,
+fieldset,
+img { border: 0; }
+
+ul li { list-style-type: none; }
+
+/* ------------------------------------------------------------ img */
+*:first-child+html img { vertical-align: bottom; }
+
+* html img { vertical-align: bottom; }
+
+img {
+	margin-bottom: 0;
+	font-size: 0;
+	line-height: 0;
+	vertical-align: middle;
+	border: none;
+}
+
+/* ------------------------------------------------------------ input */
+input { vertical-align: middle; display: inline; }
+
+*:first-child+html input { vertical-align: middle; }
+
+* html input { vertical-align: middle; }
+
+/* ------------------------------------------------------------ select */
+select { vertical-align: middle; }
+
+*:first-child+html select { vertical-align: middle; }
+
+* html select { vertical-align: middle; }
+
+/* ------------------------------------------------------------ shortcuts */
+.flL { float: left; }
+.flR { float: right; }
+
+.txL { text-align: left; }
+.txC { text-align: center; }
+.txR { text-align: right; }
+
+.pd0 { padding: 0 !important; }
+.mg0 { margin: 0 !important; }
+
+.clear { clear: both; }
+.button { cursor: pointer; }
+
+.tx10 { font-size: 10px; }
+.tx14 { font-size: 14px; }
+
+/* ------------------------------------------------------------ clear Fix */
+
+.cfx:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.cfx { min-height: 1px; }
+
+* html .cfx {
+  height: 1px;
+  /*¥*//*/
+  height: auto;
+  overflow: hidden;
+  /**/
+}
+
+/* ------------------------------------------------------------other format */
+.bgrlnk a:hover { text-decoration: none; }
+
+/* ------------------------------------------------------------ iphone */
+@media screen and (max-device-width: 480px) {
+body {
+-webkit-text-size-adjust: none; /* iPhone */
+}
+}

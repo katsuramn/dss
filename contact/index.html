@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Language" content="ja" />
+<meta name="format-detection" content="telephone=no"> 
+<meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1" />
+<link type="text/css" rel="stylesheet" href="../css/import.css" />
+<link type="text/css" rel="stylesheet" href="../css/contact.css" />
+<title></title>
+	<meta name="Keywords" content="" />
+	<meta name="Description" content="" />
+</head>
+<body id="top">
+	<header class="cfx">
+		<div class="left">
+			<a href="../index.html"><img src="../images\logo_w.png" alt="" width="122" height="42" ></a>
+			<h1>東京/神奈川/千葉/埼玉の物件情報のレインズ非公開・未公開情報を紹介</h1>
+		</div>
+		<div class="right">
+			<ul>
+				<li><a href="../index.html#about">非公開物件マーケットとは</a></li>
+				<li><a href="../index.html#merit">会員のメリット</a></li>
+				<li><a href="../index.html#rate">業務の効率化</a></li>
+				<li><a href="../index.html#qanda">よくある質問</a></li>
+			</ul>
+			<a class="contact" href="">会員登録はこちらから！</a>
+			<p id="open_modal" class="menu-btn SP"><img src="../images/menu_sp.jpg" alt="menu" width="100" height="100"/></p>
+		</div>
+	</header>
+	<div id="firstview">
+		<h2>情報の登録<span>REGISTER</span></h2>
+	</div>
+	<div id="contact">
+		<form action="./" method="POST">
+			<div class="inner">
+				<p class="caution">クレジットカードとユーザーの情報を入力してください。</p>
+				<h3>ユーザー情報</h3>
+				<p class="caution1"><span>※</span>は、必須項目になります。</p>
+				<table>
+					<tr>
+						<th>会社名 <span>※</span></th>
+						<td><input type="text" name="会社名"></td>
+					</tr>
+					<tr>
+						<th>所属部署 <span>※</span></th>
+						<td><input type="text" name="所属部署"></td>
+					</tr>
+					<tr>
+						<th>氏名</th>
+						<td><input type="text" name="氏名"></td>
+					</tr>
+					<tr>
+						<th>拠点地</th>
+						<td><input type="text" name="拠点地"></td>
+					</tr>
+					<tr>
+						<th>メールアドレス</th>
+						<td><input type="text" name="メールアドレス"></td>
+					</tr>
+					<tr>
+						<th>電話番号</th>
+						<td><input type="text" name="電話番号"></td>
+					</tr>
+					<tr>
+						<th>どこでこのサービスを知ったか</th>
+						<td><input type="text" name="どこでこのサービスを知ったか"></td>
+					</tr>
+					<tr>
+						<th>紹介者</th>
+						<td><input type="text" name="紹介者"></td>
+					</tr>
+				</table>
+			</div>
+			<div id="credit">
+				<div class="inner">
+					<h3>クレジットカード情報</h3>
+					<p class="caution1">ご購入にはクレジットカードをご利用頂けます。</p>
+					<p class="text">
+						決済システムには、国内9,000サイト以上に選ばれている安心・安全の株式会社ゼウスを利用しています。
+					</p>
+					<div class="credit_icons">
+						<img src="../images/c_icon1.jpg" width="100" height="" alt="60">
+						<img src="../images/c_icon2.jpg" width="99" height="" alt="60">
+						<img src="../images/c_icon3.jpg" width="83" height="" alt="60">
+					</div>
+					<dl>
+						<dt>カード番号</dt>
+						<dd>
+							<input type="text" name="カード番号"><br>
+							※ハイフンなし半角数字
+						</dd>
+					</dl>
+					<dl>
+						<dt>名前</dt>
+						<dd>
+							<input type="text" name="名前"><br>
+							※半角英字
+						</dd>
+					</dl>
+					<dl>
+						<dt>有効期限（月/年）</dt>
+						<dd>
+							<select name="" id="">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+							</select>
+							月/20
+							<select name="" id="">
+								<option value="20">20</option>
+								<option value="21">21</option>
+								<option value="22">22</option>
+								<option value="23">23</option>
+								<option value="24">24</option>
+								<option value="25">25</option>
+							</select>
+						</dd>
+					</dl>
+				</div>
+			</div>
+			<div class="inner">
+				<h4>利用規約</h4>
+				<p class="agreements">
+					この利用規約（以下、「本規約」といいます。）は，非公開物件マーケット（以下、「当社」といいます。）がこのウェブサイト上で提供するサービス（以下、「本サービス」といいます。）の利用条件を定めるものです。登録ユーザーの皆さま（以下、「ユーザー」といいます。）には、本規約に従って、本サービスをご利用いただきます。<br>
+					<br>
+					第1条（適用）<br>
+					1.本規約、ユーザーと当社との間の本サービスの利用に関わる一切の関係に適用されるものとします。<br>
+					2.当社は本サービスに関し、本規約のほか、ご利用にあたってのルール等、各種の定め（以下、「個別規定」といいます。）をすることがあります。これら個別規定はその名称のいかんに関わらず、本規約の一部を構成するものとします。<br>
+					3.本規約の規定が前条の個別規定の規定と矛盾する場合には、個別規定において特段の定めなき限り、個別規定の規定が優先されるものとします。<br>
+					<br>
+					第2条（利用登録）<br>
+					本サービスにおいては，登録希望者が本規約に同意の上，当社の定める方法によって利用登録を申請し，当社がこれを承認することによって，利用登録が完了するものとします。<br>
+					当社は，利用登録の申請者に以下の事由があると判断した場合，利用登録の申請を承認しないことがあり，その理由については一切の開示義務を負わないものとします。<br>
+					利用登録の申請に際して虚偽の事項を届け出た場合<br>
+					本規約に違反したことがある者からの申請である場合<br>
+					その他，当社が利用登録を相当でないと判断した場合<br>
+				</p>
+				<label><input type="checkbox" name="">利用規約に同意します</label><br>
+				<label><input type="checkbox" name="">私は不動産業界関係者であることに同意します</label>
+				<small>※サービスご利用後、不動産業界関係者ではないと発覚した場合サービス利用の停止の処置をとらせて頂きます。</small>
+			</div>
+			<div class="done_btn"><input type="submit" name="submit" value="確認画面へ"></div>
+		</form>
+	</div>
+
+	<footer>
+		<div class="foot_contact">
+			<div class="inner">
+				<div class="iphone">
+					<img class="PC" src="../images/iphone1.png" width="342" height="478" alt="">
+					<img class="SP" src="../images/iphone.png" width="342" height="478" alt="">
+				</div>
+				<div class="mid">
+					<img src="../images/regi_bg.png" width="512" height="346" alt="">
+					<a href="">会員登録はこちらから！</a>
+				</div>
+			</div>
+		</div>
+		<p class="copyright">COPYRIGHT © 非公開物件マーケット ALL RIGHTS RESERVED</p>
+	</footer>
+	<div id="mask"></div>
+	<div id="navigation" class="SP">
+		<div id="menu-header">
+			<a href="./"><img src="../images/logo.png" alt="LOGO" width="122" height="42"></a>
+		</div>
+		<ul class="cfx">
+		   <li class="bgrlnk close_modal"><a href="../index.html#top">トップページ</a></li><!--
+		   --><li class="bgrlnk close_modal"><a href="../index.html#about">非公開物件マーケットとは</a></li><!--
+		   --><li class="bgrlnk close_modal"><a href="../index.html#merit">会員のメリット</a></li><!--
+		   --><li class="bgrlnk close_modal"><a href="../index.html#rate">業務の効率化</a></li><!--
+		   --><li class="bgrlnk close_modal"><a href="../index.html#qanda">よくある質問</a></li>
+		</ul>
+	
+		<p id="close" class="close_modal">× 閉じる</p>
+	</div>
+<script type="text/javascript" src="../js/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../js/jquery/easie.min.js"></script>
+<script type="text/javascript" src="../js/controll.js"></script>
+<script type="text/javascript" src="../js/libs/jquery.matchHeight.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$('#rate ul li, #moredetails ul li, #somedetails ul').matchHeight();
+
+		var window_s = $(window).width();
+		if(window_s <= 640) {
+			$('header .right a').text('会員登録');
+		}
+
+	});
+
+	$('#qanda dl dt').on('click', function(){
+		$(this).toggleClass('active').next().slideToggle();
+	});
+</script>
+</body>
+</html>
